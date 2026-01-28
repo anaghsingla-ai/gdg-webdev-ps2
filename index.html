@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"   href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Expense Splitter</h1>
+        <div>
+            <h2>Add Group Members</h2>
+            <input type="text" id="membername" placeholder="Enter member name">
+            <button id="firstbtn">Add member</button>
+        </div>
+        <ul id="todolist">
+            
+
+        </ul>
+         
+        <div>
+            <h1>Add Expense</h1>
+            <input type="text" id="expensename"  placeholder="Expense name" >
+            <span id ="data1">Expense Name :</span>
+            <input type="text" id="expenseamount"  placeholder="expense amount">
+            <span id="data2">Expense amount :</span>
+            <button id="details"> Submit Details</button>
+            <label>Paid By:</label>
+        <select id="paidby"></select>
+
+        <label>Participants:</label>
+        <div class="checkbox-group" id="participants"></div>
+        <button id="final">Add Expense</button>
+
+        </div>
+         </header>
+         <main>
+<div>
+    <h2>Expense</h2>
+    <table>
+        <thead>
+    <tr>
+        <th>Name</th>
+        <th>Amount</th>
+        <th>Paid By</th>
+        <th>Participants</th>
+                </tr>
+            </thead>
+             <tbody id="expenseTable"></tbody>
+    </table>
+</div>
+
+         </main>
+<footer>
+<div>
+    <h2>Settlement Summary</h2>
+ <table>
+            <thead>
+<tr>
+<th>Person</th>
+<th>Total Paid</th>
+<th>Net Balance</th>
+    </tr>
+    </thead>
+    <tbody id="summaryTable"></tbody>
+    </table>
+    </div>
+
+</footer>
+   
+<script src="script.js"></script>
+</body>
+</html>
+

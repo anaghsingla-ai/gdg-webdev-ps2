@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+
+    background-image: url("bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    animation: bgChange 15s infinite;
+}
+
+@keyframes bgChange {
+    0% {
+        background-image: url("bg1.jpg");
+    }
+    33% {
+        background-image: url("bg2.jpg");
+    }
+    66% {
+        background-image: url("bg3.jpg");
+    }
+    100% {
+        background-image: url("bg1.jpg");
+    }
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: -1;
+}
+
+header, main, footer {
+    background: rgba(255, 255, 255, 0.92);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #5b21b6;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #7c3aed;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6d28d9;
+}
+
+#todolist {
+    list-style: none;
+    margin-top: 10px;
+}
+
+#todolist li {
+    background: #ede9fe;
+    padding: 8px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background: #ede9fe;
+    color: #5b21b6;
+}
