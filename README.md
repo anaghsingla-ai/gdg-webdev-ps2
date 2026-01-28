@@ -47,4 +47,4 @@ All data is stored using browser localStorage, so the information remains availa
 
 1. Clone the repository:
    ```bash
-   git clone <your-github-repo-link>
+   repo link- (https://github.com/anaghsingla-ai/gdg-webdev-ps2)
