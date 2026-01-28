@@ -33,7 +33,7 @@ All data is stored using browser localStorage, so the information remains availa
 ## 📷 Screenshots
 
 ### Landing Page & Group Creation
-![Landing Page](./bg1.jpg)
+![Landing Page](./Screenshot 2026-01-28 214832.png)
 
 ### Expense Entry Interface
 ![Expense Entry](./bg2.jpg)
