@@ -33,13 +33,13 @@ All data is stored using browser localStorage, so the information remains availa
 ## 📷 Screenshots
 
 ### Landing Page & Group Creation
-![Landing Page](./Screenshot 2026-01-28 214832.png)
+![Landing Page](./img1.jpg)
 
 ### Expense Entry Interface
-![Expense Entry](./bg2.jpg)
+![Expense Entry](./img2.jpg)
 
 ### Settlement Summary
-![Settlement Summary](./bg3.jpg)
+![Settlement Summary](./img3.jpg)
 
 ---
 
